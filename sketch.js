@@ -27,3 +27,10 @@ function mouseReleased() {
   }
 
 }
+
+// 만약 조금 더 추상화 시킨다면, 이런 구현은 어떨까?
+// function mouseReleased() {
+//   if (ball.isInside(mouseVector)) {
+//     ball.click(mouseVector);
+//   }
+// }
